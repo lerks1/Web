@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="style.css">
+	<body>
+		<div id = 'logobrand'>
+			<img src="dumbell.png" id="dumbell" class='logo' hspace="5" vspace="5" style="PADDING-TOP:5px" style="PADDING-LEFT:50px"/>
+		</div>
+	
+		<center>
+			<div id='title' class='containerlayer1'>
+			</div>
+		</center>
+		
+		<div id="maincontainer">
+			<img src="benchpress.png" id='bppic'/>
+			<div id='input'>
+			
+				<div id='addrecord'>
+				<center>
+					<H1> Enter New Bench Press Record!</H1>
+					<form method="post" action="/record" id='addrecordform'>
+		  			Name: <input type="text" name="name"/><br /> <br /> <br />
+		  			Weight: <input type="numeric" name="weight" /><br />
+	  			</center>
+	  			<center>
+	  			<br /><br />
+	  				<input type="submit" id='submitrecord' class ='button' />
+	  				</form><button type="button" id ="button" class ='button'>Records</button>
+	  				<button type="button" id ="button2" class ='button'>Quote</button>
+	  				<H2 id='quote'></h2>
+	  			</center>
+	  			</div>
+  			</div>
+		</div>
+		
+		<center>
+		<div id='bottompanel' class='containerlayer1'>
+			<a href="http://www.muscleandfitness.com/workouts/workout-tips/25-ways-improve-your-workout" class='extLink'>Info on Techniques</a>
+			<a href="https://www.webmd.com/fitness-exercise/features/nutrition-tips-athletes#1" class='extLink'>Info on Nutrition</a>
+			<a href="http://www.rebelsport.co.nz/" class='extLink'>Info on Equipment</a>
+		</div>
+	</center>
+	</body>
+</html>
+
+<script type="text/javascript" src="main.js"></script>

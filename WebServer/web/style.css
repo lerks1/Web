@@ -1,0 +1,83 @@
+body 
+{
+    background-color: #74AB7C;
+  	height: 100%;
+}
+
+.button {
+    background-color: #74AB7C;
+    color: white;
+    padding: 8px 22px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.containerlayer1
+{
+	background-color: #CEE6D2;
+}
+
+.extLink
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+#quote
+{
+	font-style: italic;
+	color: #74AB7C;
+}
+
+#addrecord
+{
+	height: 80vh;
+	width: 101.5%;
+	background-color: #CEE6D2;
+	float:left;
+}
+
+#bppic
+{
+	width: 40%;
+	height: 80vh;
+	float:left;
+	background-color: #CEE6D2;
+}
+
+#input
+{
+	float:left;
+	width: 59%;
+	height: 80vh;
+}
+
+#maincontainer
+{
+	margin-left: 5%;
+	width: 90%;
+	height: 80vh;
+	margin-top: .5%;
+}
+
+#dumbell
+{
+	height: 5vh;
+	padding-left: 5%;
+}
+
+#title
+{
+	height: 2vh;
+	width: 90%;
+}
+
+#bottompanel
+{
+background-color: #CEE6D2;
+height: 4vh;
+width: 90%;
+bottom:0;
+margin-top: .5%;
+}
