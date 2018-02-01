@@ -1,6 +1,6 @@
 document.getElementById('button').addEventListener('click', function() 
 {
-window.location.href='http://localhost:8080/scoretable';
+	window.location.href='http://localhost:8080/scoretable';
 }
 )
 
